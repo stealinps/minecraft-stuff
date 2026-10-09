@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "Join": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "Join"
+    ]
+  ],
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "title": "New World Ahead (clickme)",
+    "description": "The advancement will be your primary progression guide from now on. Alongside Dictionary for Mobs list and Boss Checklists.",
+    "frame": "task"
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parents": [
+    "minecraft:story/root"
+  ]
+}

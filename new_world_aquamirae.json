@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "Join": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dirt"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Join"
+    ]
+  ],
+  "parent": "minecraft:new_world_ahead",
+  "display": {
+    "icon": {
+      "id": "aquamirae:rune_of_the_storm"
+    },
+    "title": "Aquamirae",
+    "description": "Explore Aquamirae Strucutres in Ice Biome",
+    "frame": "task"
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parents": [
+    "minecraft:new_world_ahead"
+  ]
+}

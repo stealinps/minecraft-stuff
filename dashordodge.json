@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "criterion_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "predicate": {
+              "nbt": "{\"neoforge:attachments\":{\"block_factorys_bosses:roll_attachment\":{cooldown_1:1.0f}}}"
+            },
+            "entity": "this",
+            "condition": "minecraft:entity_properties"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criterion_2"
+    ]
+  ],
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "id": "aether:gravitite_boots"
+    },
+    "title": "Dash Or Dodge",
+    "description": "Do a dash or dodge",
+    "frame": "task"
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parents": [
+    "minecraft:adventure/kill_a_mob"
+  ]
+}
